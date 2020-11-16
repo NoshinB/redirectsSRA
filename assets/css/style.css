@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body, html {
+  font-family: 'Poppins', sans-serif !important;
+  color: #444444;
+    margin: 0;
+      height: 100%;
+  margin: 0;
+}
+
+a {
+  color: #9bcd85; 
+}
+
+a:hover {
+  color: #9bcd85;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/*background image*/
+.bg {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
